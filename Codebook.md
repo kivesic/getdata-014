@@ -10,9 +10,9 @@ The **subject** is the identifier of a subject (a person in the experiment) and 
 
 All other columns (columns 3 to 81) pertain to mean values of different measurements that measured mean or standard deviation of different qunantities in the raw dataset. The names of the columns in the tidy dataset are kept so that they match the names from the raw dataset. Their names are as follows:
 
-tBodyAcc-std()-X
-tBodyAcc-std()-Y
-tBodyAcc-std()-Z
+3. tBodyAcc-std()-X
+4. tBodyAcc-std()-Y
+5. tBodyAcc-std()-Z
 tGravityAcc-std()-X
 tGravityAcc-std()-Y
 tGravityAcc-std()-Z
