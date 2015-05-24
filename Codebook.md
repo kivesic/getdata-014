@@ -9,7 +9,7 @@ The **activity** is one of the six following activities, as specified in the raw
 The **subject** is the identifier of a subject (a person in the experiment) and it is an integer from 1 to 30.
 
 All other columns (columns 3 to 81) pertain to mean values of different measurements that measured mean or standard deviation of different qunantities in the raw dataset. The names of the columns in the tidy dataset are kept so that they match the names from the raw dataset. Their names are as follows:
-
+```
 tBodyAcc-std()-X
 tBodyAcc-std()-Y
 tBodyAcc-std()-Z
@@ -89,3 +89,4 @@ fBodyBodyGyroMag-mean()
 fBodyBodyGyroMag-meanFreq()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-meanFreq()
+```
