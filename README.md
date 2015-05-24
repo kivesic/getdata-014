@@ -17,3 +17,7 @@ The labels are loaded (`y_train`, `y_test`) and merged (`y_merged`) and then the
 Finally, the subjects' indices are added the dataset (now called `x_subjects`).
 
 Now, the required subset that contains only the measurements the represent mean or standard deviation is created and activity labels and subject indices are added to it.
+
+The task in the project was to calculate the mean values for each variable for each activity and subject. So, a groups is created (`activities`), grouping by the activity and the subject. First, the mean is calculated for the first two columns and the results are added to a new dataset. Then, the process is repeated for all other columns. The names of columns are changes so that they match the original names of the columns from the `x_subjects` dataset.
+
+
